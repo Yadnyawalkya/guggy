@@ -1,0 +1,24 @@
+{
+  "timeZone": "Asia/Kolkata",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "guggy_app",
+        "serviceId": "guggy_app",
+        "version": "v1"
+      }
+    ]
+  },
+  "webapp": {
+    "access": "DOMAIN",
+    "executeAs": "USER_ACCESSING"
+  },
+  "executionApi": {
+    "access": "DOMAIN"
+  },
+  "urlFetchWhitelist": [
+    "https://text2gif.guggy.com/v2/guggify"
+  ],
+  "exceptionLogging": "STACKDRIVER",
+  "chat": {}
+}
