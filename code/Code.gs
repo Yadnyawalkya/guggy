@@ -48,12 +48,11 @@ function onMessage(event) {
  */
 function onAddToSpace(event) {
 
+    var human = "Humans";
     var init_msg = `Surprise surprise! 👋 <br><br>" + human + ", I don't always make
                     sense, so be careful with your words! :P <br><br>Feedbacks/bugs
                     are welcomed at ytale@redhat.com.<br><br><b>Terms and Conditions
                     agreement</b><br>https://guggy.com/privacy.html`
-
-    var human = "Humans";
 
     if (event.space.type == "DM") {
         human = "Human";
